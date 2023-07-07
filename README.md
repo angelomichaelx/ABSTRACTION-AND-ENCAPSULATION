@@ -1,5 +1,5 @@
 # ABSTRACTION-AND-ENCAPSULATION
-##This repository demonstrates the concepts of abstraction and encapsulation using the Python programming language. It includes programming exercises that involve implementing classes for a fan, car, and pet, showcasing the use of abstraction and encapsulation.
+# This repository demonstrates the concepts of abstraction and encapsulation using the Python programming language. It includes programming exercises that involve implementing classes for a fan, car, and pet, showcasing the use of abstraction and encapsulation.
 
 ## Problem Given
 ## FAN
