@@ -1,7 +1,12 @@
+#import
 from fanclass import Fan
 
+#class
 class testfan:
+
+    #define class 
     def runtest(self):
+
 #two fans
         #Fan 1
         fan1 = Fan(Fan.FAST, True, 10, "Yellow")
@@ -16,8 +21,9 @@ class testfan:
         print("\033[93mFan 1 - On:", fan1.is_on(), "\033[0m")
         print("\033[93mFan 1 - Radius:", fan1.get_radius(), "\033[0m")
         print("\033[93mFan 1 - Color:", fan1.get_color(), "\033[0m")
-        
+    
         print("")
+
 #Second fan properties
         print("=" * 15)
         print("\033[1mFAN NUMBER 2\033[0m")
