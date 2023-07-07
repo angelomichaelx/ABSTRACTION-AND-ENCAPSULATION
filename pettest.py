@@ -1,5 +1,5 @@
 #import
-from petsclass import pet
+from petsclass import Pet
 
 #create petttest class
 class pettest:
@@ -12,6 +12,17 @@ class pettest:
         type = input("Enter the type of your pet: ")
 #input age of pet
         age = input("Enter the age of your pet: ")
+        pet = Pet(name, type, age)
+
+#print output
+        print()
+        print("<=>" * 8)
+        print("YOUR PET IDENTIFICATION")
+        print("<=>" * 8)
+        print()
+
+
+
 
 
 # Instance to run pettest
