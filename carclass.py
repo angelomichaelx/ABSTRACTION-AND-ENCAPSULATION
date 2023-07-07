@@ -11,4 +11,8 @@ class Car:
         return self.year 
     def set_yearmodel(self, yearmodel):
         self.year = yearmodel
-        
+
+    def get_make(self):
+        return self.make
+    def set_make(self, make):
+        self.make = make
