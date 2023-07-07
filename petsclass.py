@@ -1,5 +1,5 @@
 #create pet class
-class pet:
+class Pet:
     #constructor
     def __init__(self, nameofpet, typeofpet, ageofpet):
         self.name = nameofpet
