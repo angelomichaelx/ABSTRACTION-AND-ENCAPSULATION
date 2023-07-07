@@ -12,12 +12,23 @@ class Fan:
             self.__on = on 
             self.__radius = radius
             self.__color = color
+
 #methods
+
     def get__speed(self):
           return self.__speed
     
     def set_speed(self, speed):
           self.__speed = speed
 
-          
+    def set_on(self):
+          return self.__on
+
+    def set_on(self, on):
+          self.__on = on
+    
+    
+    
+
+
           
