@@ -16,3 +16,8 @@ class Car:
         return self.make
     def set_make(self, make):
         self.make = make
+
+    def get_speed(self):
+        return self.speed
+    def set_speed(self, speed):
+        self.speed = speed
