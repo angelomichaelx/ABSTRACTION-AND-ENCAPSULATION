@@ -10,31 +10,31 @@ class Fan:
       def __init__(self, speed = SLOW, on = False, radius = 5, color = "blue"):
 
             self.speed = speed
-            self.on = 1 
+            self.on = True
             self.radius = radius
             self.color = color
 
 #methods
 
-      def get__speed(self):
+      def get_speed(self):
             return self.speed
             
       def set_speed(self, speed):
             self.speed = speed
 
-      def set_on(self):
+      def is_on(self):
             return self.on
 
       def set_on(self, on):
             self.on = on
 
-      def set_radius(self):
+      def get_radius(self):
             return self.radius
 
       def set_radius(self, radius):
             self.radius = radius
             
-      def set_color(self):
+      def get_color(self):
             return self.color
 
       def set_color(self, color):
