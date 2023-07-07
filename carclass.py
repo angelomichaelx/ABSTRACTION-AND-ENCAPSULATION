@@ -24,3 +24,6 @@ class Car:
 
     def accelerate(self):
         self.speed += 5 
+    
+    def brake(self):
+        self.speed -= 5
