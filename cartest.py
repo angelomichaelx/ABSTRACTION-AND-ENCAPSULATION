@@ -17,6 +17,23 @@ class testcar:
         print("=" * 15)
         print()
         
+        #accelerate       
+        print("\033[1;32mAccelerating *BROOM*")
+        #acceleraion 1st call
+        print("\033[1;32mSpeed:", car.get_speed())
+        #acceleraion 2nd call
+        car.accelerate()
+        print("\033[1;32mSpeed:", car.get_speed())
+        #acceleraion 3rd call
+        car.accelerate()
+        print("\033[1;32mSpeed:", car.get_speed())
+        #acceleraion 4th call
+        car.accelerate()
+        print("\033[1;32mSpeed:", car.get_speed())
+        #acceleraion 5th call
+        car.accelerate()
+        print("\033[1;32mSpeed:", car.get_speed())   
+        print()
 
 run = testcar()
 run.testingcar()
