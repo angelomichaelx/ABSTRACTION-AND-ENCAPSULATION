@@ -21,3 +21,6 @@ class Car:
         return self.speed
     def set_speed(self, speed):
         self.speed = speed
+
+    def accelerate(self):
+        self.speed += 5 
