@@ -10,4 +10,12 @@ class pet:
         return self.name
     def set_name(self, nameofpet):
         self.name = nameofpet
+
+    def get_type(self):
+        return self.type
+    def set_type(self, typeofpet):
+        self.type = typeofpet
         
+
+
+
