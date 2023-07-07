@@ -11,7 +11,7 @@ class pettest:
 #input type of pet
         type = input("Enter the type of your pet: ")
 #input age of pet
-
+        age = input("Enter the age of your pet: ")
 
 
 # Instance to run pettest
