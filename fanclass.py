@@ -9,36 +9,36 @@ class Fan:
 #constructor
       def __init__(self, speed = SLOW, on = False, radius = 5, color = "blue"):
 
-            self.__speed = speed
-            self.__on = on 
-            self.__radius = radius
-            self.__color = color
+            self.speed = speed
+            self.on = 1 
+            self.radius = radius
+            self.color = color
 
 #methods
 
       def get__speed(self):
-            return self.__speed
+            return self.speed
             
       def set_speed(self, speed):
-            self.__speed = speed
+            self.speed = speed
 
       def set_on(self):
-            return self.__on
+            return self.on
 
       def set_on(self, on):
-            self.__on = on
+            self.on = on
 
       def set_radius(self):
-            return self.__radius
+            return self.radius
 
       def set_radius(self, radius):
-            self.__radius = radius
+            self.radius = radius
             
       def set_color(self):
-            return self.__color
+            return self.color
 
       def set_color(self, color):
-            self.__color = color
+            self.color = color
             
     
     
