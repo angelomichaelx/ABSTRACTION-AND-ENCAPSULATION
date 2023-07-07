@@ -27,6 +27,13 @@ class Fan:
     def set_on(self, on):
           self.__on = on
 
+    def set_radius(self):
+          return self.__radius
+
+    def set_radius(self, radius):
+          self.__radius = radius
+    
+
     
     
     
