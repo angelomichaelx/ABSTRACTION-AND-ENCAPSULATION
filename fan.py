@@ -26,6 +26,8 @@ class Fan:
 
     def set_on(self, on):
           self.__on = on
+
+    
     
     
     
